@@ -1,0 +1,326 @@
+.banner {
+    width: 100%;
+    height: 551px;
+    background-image: url('../img/support/banner-bg.png');
+    background-size: 100% 100%;
+}
+.banner-content {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background: url('../img/support/banner-cover.png') no-repeat center;
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-cover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    margin-left: -350px
+}
+.banner-title {
+    font-size: 48px;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+}
+.banner-subtitle {
+    font-size: 42px;
+    line-height: 1.67;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.banner-btn {
+    display: block;
+    width: 160px;
+    height: 44px;
+    border-radius: 22px;
+    background-image: linear-gradient(255deg, #f83600, #fc790d);
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    font-size: 16px;
+}
+.section {
+    width: 100%;
+    height: 560px;
+}
+.section1 {
+    align-items: center;
+    justify-content: center;
+}
+/*.section-title {
+    font-size: 30px;
+    text-align: center;
+    color: #040f1e;
+}*/
+.line {
+    width: 30px;
+    height: 4px;
+    background-color: #fc790d;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.section1-iconbox {
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+
+    justify-content: space-between;
+}
+.icon-item {
+    align-items: center;
+    width: 7.5rem;
+}
+.icon {
+    width: 108px;
+    height: 108px;
+}
+.iconItem-title {
+    color: #68768b;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.iconItem-subtitle {
+    color: #68768b;
+    font-size: 16px;
+    text-align: center;
+}
+
+.section2 {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.section2-content {
+    width: 15.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section2-img {
+    width: 20rem;
+    height: 18.6rem;
+    background-image: url('../img/support/section2.png');
+    background-size: 20rem 18.6rem;
+}
+.section2-content-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.8px;
+    color: #68768b;
+}
+.section3 {
+    align-items: center;
+    justify-content: center;
+}
+.iconItem-index {
+    width: 25px;
+    height: 42px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ff9c4a;
+}
+
+.section4 {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(261deg, #fc790d, #ffa40e);
+    overflow: visible;
+}
+.section4-content {
+    width: 48rem;
+    height: 220px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.section4-left {
+    width: 232px;
+    height: 221px;
+    background-image: url('../img/support/section4-icon1.png');
+    background-size: 232px 221px;
+}
+.section4-middle {
+    align-items: center;
+    justify-content: center;
+}
+.section4-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.section4-subtitle {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+    margin-top: 21px;
+    margin-bottom: 34px;
+}
+.section4-btn {
+    width: 156px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #fd8e0d;
+    text-align: center;
+    line-height: 44px;
+}
+.section4-right {
+    width: 232px;
+    height: 230px;
+    background-image: url('../img/support/section4-icon2.png');
+    background-size: 232px 230px;
+    margin-top: -24px;
+
+}
+.section3-iconbox {
+    display: flex;
+    flex-direction: row;
+}
+.section-container {
+    width: 48rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-img {
+    width: 20rem;
+    height: 18.6rem;
+}
+@media (min-width: 800px) and (max-width: 1170px) {
+    .slide-2-content,
+    .slide-1-content-textBox {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section {
+        width: 100%
+    }
+    .section4-content {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .section3 {
+        width: 100%
+    }
+    .icon {
+        width: 88px;
+        height: 88px;
+    }
+    .section-container {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .banner-cover {
+        background-size: 375px 375px;
+    }
+    .section1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section1-iconbox {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .section2 {
+        height: 604px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .section3-iconbox {
+        flex-direction: column;
+    }
+    .section4-right {
+        display: none;
+    }
+    .section4-left {
+        display: none;
+    }
+    .section4 {
+        flex-direction: column;
+    }
+    .section4-content {
+        width: 100%;
+        flex-direction: column;
+    }
+    .section2-img {
+        width: 100%;
+    }
+    .banner-content {
+        background-size: 375px 375px
+    }
+    .section-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .section2-img {
+        width: 14.375rem;
+        height: 13.43rem;
+        background-size: 14.375rem 13.43rem;
+    }
+    .section2-conten {
+        text-align: center;
+    }
+    .line  {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section3 {
+        height: 1100px;
+    }
+    .section4 {
+        height: 420px;
+        align-items: center;
+        justify-content: center;
+    }
+    .section2-content {
+        justify-content: center;
+        text-align: center;
+    }
+    .section4-title {
+        font-size: 22px;
+    }
+/*    .section-title {
+        font-size: 28px;
+    }*/
+
+}
+

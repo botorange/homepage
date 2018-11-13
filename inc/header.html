@@ -1,0 +1,30 @@
+<div class="header">
+    <header>
+        <div class="clearfix content-wrapper">
+            <div class="clearfix left">
+                <a href="index.html" class="left header-logo">
+                </a>
+            </div>
+            <div class="right">
+                <a class="left nav-item" data-target="a" href="/">首页</a>
+                <a class="left nav-item" data-target="b" href="/product.html">产品服务</a>
+                <a class="left nav-item" data-target="c" href="/support.html">开发者支持</a>
+                <a class="left nav-item" data-target="d" href="/about.html">关于我们</a>
+            </div>
+        </div>
+    </header>
+</div>
+<script type="text/javascript">
+(function() {
+    var navs = document.getElementsByClassName('nav-item');
+    var currentNavName = CONFIG && CONFIG.currentNavName || undefined;
+
+    for (var i = navs.length - 1; i >= 0; i--) {
+        var nav = navs[i];
+        var targetName = nav.getAttribute('data-target');
+        if (currentNavName === targetName) {
+            nav.className += ' active';
+        }
+    }
+})();
+</script>

@@ -1,0 +1,43 @@
+<div class="header-mobile">
+    <header class="header-mobile-box">
+        <div class="header-mobile-content">
+            <a href="index.html" class="header-logo-mobile"></a>
+            <a id="header-menu"><div class="header-menu"></div></a>
+        </div>
+    </header>
+
+    <div class="header-mobile-drawer">
+            <a class="nav-item-mobile" data-target="a" href="/">首页</a>
+            <a class="nav-item-mobile" data-target="b" href="/product.html">产品服务</a>
+            <a class="nav-item-mobile" data-target="c" href="/support.html">代理合作</a>
+            <a class="nav-item-mobile" data-target="d" href="/about.html">关于我们</a>
+    </div>
+
+
+</div>
+<script type="text/javascript">
+(function() {
+    var navs = document.getElementsByClassName('nav-item');
+    var currentNavName = CONFIG && CONFIG.currentNavName || undefined;
+
+    document.getElementById("header-menu").addEventListener("click", function(){
+        if($(".header-mobile-drawer").is(":hidden")) {
+            $(".header-mobile-drawer").css({
+                display:'flex'
+            })
+        }else {
+            $(".header-mobile-drawer").css({
+                display:'none'
+            })
+        }
+    });
+
+    for (var i = navs.length - 1; i >= 0; i--) {
+        var nav = navs[i];
+        var targetName = nav.getAttribute('data-target');
+        if (currentNavName === targetName) {
+            nav.className += ' active';
+        }
+    }
+})();
+</script>

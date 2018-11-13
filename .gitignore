@@ -1,0 +1,7 @@
+# ignore personal conf files
+.idea
+.DS_Store
+node_modules
+bower_components
+dist
+*.log
