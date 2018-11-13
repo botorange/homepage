@@ -115,7 +115,7 @@
     height: 18.6rem;
     background-image: url('../img/about/section3.png');
     background-size: 20rem 18.6rem;
-    padding-left: 100px;
+    margin-left: 100px;
 }
 .contact-item {
     align-items: center;

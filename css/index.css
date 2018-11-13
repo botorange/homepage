@@ -64,11 +64,24 @@ body {
     justify-content: center;
 
 }
+
 .banner-title-bold {
     font-size: 36px;
     color: #fff;
     font-size: 2.4rem;
 
+}
+.slide1-btn {
+    width: 156px;
+    height: 44px;
+    border-radius: 22px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 60px;
+    background-image: linear-gradient(255deg, #f83600, #fc790d);
+    display: block;
 }
 .banner-title {
     font-size: 48px;
@@ -470,6 +483,10 @@ body {
     }
     .banner2-subtitle {
         margin-left: 0px;
+    }
+    .slide1-btn {
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }

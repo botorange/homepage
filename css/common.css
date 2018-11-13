@@ -32,7 +32,7 @@
   justify-content: center;
 }
 .section-content {
-  width: 21rem;
+  width: 22rem;
   height: 18.6rem;
   display: flex;
   display: -webkit-flex;
@@ -40,10 +40,12 @@
   justify-content: center;
 }
 .section-content-left {
-  padding-left: 100px;
+  padding-left: 50px;
+  margin-right: 50px;
 }
 .section-content-right {
-  padding-left: 100px
+  padding-left: 50px;
+  margin-left: 50px;
 }
 .section-title {
   font-size: 30px;
@@ -124,7 +126,19 @@ html {
       height: 215px;
       background-size: 230px 215px;
       background-position: center
-  }
+    }
+    .section-content-left {
+      margin: 0;
+      padding: 0;
+      /*padding-left: 50px;*/
+      /*margin-right: 0px;*/
+    }
+    .section-content-right {
+      margin: 0;
+      padding: 0;
+      /*padding-left: 50px;*/
+      /*margin-left: 50px;*/
+    }
 }
 
 

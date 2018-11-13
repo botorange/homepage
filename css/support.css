@@ -115,6 +115,7 @@
     height: 18.6rem;
     background-image: url('../img/support/section2.png');
     background-size: 20rem 18.6rem;
+    margin-left: 50px;
 }
 .section2-content-text {
     font-size: 16px;
