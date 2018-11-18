@@ -3,6 +3,9 @@ $(function() {
     main();
 
     function main() {
+        $('#header').load('inc/header.html');
+        $('#header-mobile').load('inc/header-mobile.html');
+        $('#footer').load('inc/footer.html');
         setRem();
         setRemOnResize();
         setHeaderListener();
@@ -46,13 +49,13 @@ $(function() {
         return window.scrollY || document.body.scrollTop || document.documentElement.scrollTop;
     }
     function setHeaderListener() {
-        var $header = $('.header')[0];
-        var $headerMobile = $('.header-mobile')[0]
-        var $headerMenu = $('.header-menu')[0]
 
 
         setContentAnimatePosition();
         $(window).on('scroll', function(e) {
+            var $header = $('.header')[0];
+            var $headerMobile = $('.header-mobile')[0]
+            var $headerMenu = $('.header-menu')[0]
             var currentScrollTop = _getCurrentScrollTop();
             if (currentScrollTop > 0) {
                 $header.classList.add('scrolled');
