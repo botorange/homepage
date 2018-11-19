@@ -64,7 +64,6 @@ body {
     justify-content: center;
 
 }
-
 .banner-title-bold {
     font-size: 36px;
     color: #fff;
@@ -229,9 +228,14 @@ body {
 
 
 /* section -------------------------------------------------------------------------------------------------------------------*/
+.section1,
 .section3 {
+    background-color: #fff
+}
+.section2{
     background-color: #f6f6f6
 }
+
 .img1 {
     background-image: url('../img/index/section-1.png');
 }
@@ -274,10 +278,12 @@ body {
     width: 100%;
     height: 780px;
     padding-top: 80px;
+    padding-bottom: 50px;
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 .section-5 {
     width: 100%;
@@ -334,8 +340,10 @@ body {
 
 .logo-wrapper-container {
     width: 100%;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: visible;
 }
+.logo-wrapper-container::-webkit-scrollbar {display:none}
 
 .logo-Wrapper {
     margin-left: auto;
@@ -487,6 +495,7 @@ body {
     .slide1-btn {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 150px;
     }
 
 }

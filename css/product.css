@@ -101,7 +101,9 @@
     margin-top: 0px;
 }
 
-
+.qrcode-mobile {
+    display: none;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -123,7 +125,8 @@
         width: 303px;
         height: 224px;
         background-size: 303px 224px;
-        background-position: center
+        margin-top: 150px;
+        background-position: center;
 
     }
 
@@ -158,6 +161,14 @@
         flex-direction: column;
         height: auto;
         padding-top: 0;
+    }
+    .qrcode-mobile {
+        display: block;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        bottom: 310px;
+        margin-top: 0px;
     }
 }
 

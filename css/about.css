@@ -83,6 +83,7 @@
     transform: translateY(-6px);
 }
 .news-icon {
+
     width: 270px;
     height: 200px;
 }
@@ -142,7 +143,6 @@
 }
 .section-subtitle {
     height: 26px;
-    font-family: PingFang-SC;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.8px;
@@ -221,6 +221,23 @@
 .job-title {
 
 }
+
+
+
+.news-swiper .swiper-pagination {
+    bottom: 0px;
+}
+
+.news-swiper .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #333;
+}
+.news-swiper .swiper-pagination-bullet-active {
+    background-color: #fc790d;
+}
+
 .arrowDown {
     width: 24px;
     height: 24px;

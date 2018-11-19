@@ -48,9 +48,10 @@
   margin-left: 50px;
 }
 .section-title {
-  font-size: 30px;
+  font-size: 25px;
   color: #040f1e;
   font-weight: 500;
+  line-height: 1.4
 }
 .section-img {
   width: 20rem;
@@ -94,6 +95,8 @@ html {
     .section {
       width: 100%;
       height: 624px;
+      padding-left: 30px;
+      padding-right: 30px;
       align-items: center;
       justify-content: center;
     }
