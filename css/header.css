@@ -10,12 +10,12 @@
 }
 .header .header-logo {
     display: block;
-    width: 103px;
-    height: 26px;
+    width: 101px;
+    height: 29px;
     margin-top: 12px;
     background-image: url('../img/logo.png');
     background-repeat: no-repeat;
-    background-size: 103px 26px;
+    background-size: 101px 29px;
 }
 .header .nav-item {
     display: block;
@@ -59,9 +59,9 @@
 
 .header-mobile.scrolled .header-logo-mobile {
     background-image: url('../img/logo-active.png');
-    width: 103px;
-    height: 24px;
-    background-size: 103px 24px
+    width: 101px;
+    height: 29px;
+    background-size: 101px 29px
 
 }
 .header-mobile-drawer {
@@ -148,10 +148,10 @@
         height: 50px;
     }
     .header-logo-mobile {
-        width: 103px;
-        height: 24px;
+        width: 101px;
+        height: 29px;
         background-image: url('../img/logo.png');
-        background-size: 103px 24px
+        background-size: 101px 29px
     }
 
     .header-menu {
