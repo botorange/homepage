@@ -318,6 +318,18 @@
         position: relative;
 
     }
+    .contact-text {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 11px;
+        padding-left: 0
+    }
     .jobBox {
         width: 100%;
         min-height: 200px;
@@ -355,9 +367,7 @@
         display: flex;
         text-align: center;
     }
-    .contact-item {
-        padding-left: 60px;
-    }
+
     .line {
         margin-left: auto;
         margin-right: auto;
@@ -366,6 +376,7 @@
         width: 14.375rem;
         height: 13.43rem;
         background-size: 14.375rem 13.43rem;
+        margin-left: 0px;
     }
     .banner-title {
         font-size: 36px;
@@ -381,12 +392,12 @@
         letter-spacing: 1px;
     }
     .contact-box {
-        width: 375px;
+/*        width: 375px;
         margin-left: auto;
-        margin-right: auto
+        margin-right: auto*/
     }
     .contact-item  {
-        padding-left: 30px;
+        /*padding-left: 30px;*/
     }
     .news-item {
         box-shadow: none

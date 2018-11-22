@@ -237,6 +237,15 @@
 }
 
 @media (max-width: 800px) {
+    .banner-subtitle {
+        font-size: 26px;
+        line-height: 1.67;
+        letter-spacing: 0.9px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
     .banner-cover {
         background-size: 375px 375px;
     }

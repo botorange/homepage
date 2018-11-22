@@ -18,7 +18,12 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.section1-content-text {
 
+}
+.section1-mobile-content-text {
+    display: none;
 }
 .banner-content-left {
     display: flex;
@@ -129,7 +134,12 @@
         background-position: center;
 
     }
-
+    .section1-content-text {
+        display: none;
+    }
+    .section1-mobile-content-text {
+        display: block;
+    }
     .line {
         margin-left: auto;
         margin-right: auto;
