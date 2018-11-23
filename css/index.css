@@ -30,6 +30,21 @@ body {
 .swiper-container .swiper-pagination {
     bottom: 74px;
 }
+.section-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-btn-text {
+    font-size: 16px;
+    color: #fa6609;
+}
+.section-btn-img {
+    width: 8px;
+    height: 16px;
+    margin-left: 8px;
+}
 
 .swiper-container .swiper-pagination-bullet {
     width: 8px;
@@ -392,6 +407,10 @@ body {
 }
 
 @media (max-width: 800px) {
+    .section-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .slide-1-content-textBox {
         width: 100%;
         text-align: center;
