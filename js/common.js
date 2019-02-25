@@ -11,12 +11,12 @@ $(function() {
         setDavoice()
     }
 
-    function setDavoice() {
-        daovoice('init', {
-            app_id: "633f5335"
-        });
-        daovoice('update');
-    }
+    // function setDavoice() {
+    //     daovoice('init', {
+    //         app_id: "633f5335"
+    //     });
+    //     daovoice('update');
+    // }
 
     function setContentAnimatePosition() {
         var arr = [];
