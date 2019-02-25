@@ -8,7 +8,7 @@ $(function() {
         setHeaderListener();
 
 
-        setDavoice()
+        // setDavoice()
     }
 
     // function setDavoice() {
