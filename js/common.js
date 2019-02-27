@@ -6,17 +6,7 @@ $(function() {
         setRem();
         setRemOnResize();
         setHeaderListener();
-
-
-        // setDavoice()
     }
-
-    // function setDavoice() {
-    //     daovoice('init', {
-    //         app_id: "633f5335"
-    //     });
-    //     daovoice('update');
-    // }
 
     function setContentAnimatePosition() {
         var arr = [];
