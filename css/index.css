@@ -524,6 +524,10 @@ body {
         flex-direction: column;
         text-align: center;
         align-items: center;
+        margin-top: -20px;
+    }
+    .banner2-title {
+        font-size: 20px;
     }
     .banner2-subtitle {
         margin-left: 0px;
@@ -533,7 +537,11 @@ body {
         margin-right: auto;
         margin-top: 150px;
     }
-
+    .banner-subtitle {
+        color: #fff;
+        margin: 30px;
+        font-size: 20px;
+    }
 }
 
 
