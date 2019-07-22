@@ -13,11 +13,12 @@ body {
     z-index: 999;
     background: rgba(0, 0, 0, 0.65);
     display: none;
+    transition: 0.5s;
 }
 
 .mask-hide {
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 #contact {
@@ -135,6 +136,12 @@ body {
 .fadeOutRight {
     -webkit-animation-name: fadeOutRight;
     animation-name: fadeOutRight;
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeOutRight;
+    animation-name: fadeOutRight;
+    animation-direction: reverse;
 }
 
 /* banner -------------------------------------------------------------------------------------------------------------------*/

@@ -76,12 +76,14 @@ $(function () {
     }
 
     function showMask() {
-        $('#mask').removeClass('mask-hide').show()
+        $('#mask').show();
+        $('#mask').removeClass('mask-hide');
         $('#contact').removeClass('contact-close').addClass('contact-active');
     }
 
     function hideMask() {
         $('#contact').removeClass('contact-active').addClass('contact-close');
-        $('#mask').addClass('mask-hide').hide(300);
+        $('#mask').addClass('mask-hide');
+        setTimeout(function() { $('#mask').hide() }, 500);
     }
 });
