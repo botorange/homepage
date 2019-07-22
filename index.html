@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" >
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>句子互动-微信智能客服</title>
 
     <link rel="stylesheet" type="text/css" href="css/common.css">
@@ -13,27 +13,42 @@
     <link rel="stylesheet" type="text/css" href="lib/swiper_min.css">
 
     <script type="text/javascript">
-    (function() {
-        window.CONFIG = {
-            currentNavName: 'a'
-        };
+        (function () {
+            window.CONFIG = {
+                currentNavName: 'a'
+            };
 
-    })();
+        })();
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135507011-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-135507011-1');
+        gtag('config', 'UA-135507011-1');
     </script>
 
 </head>
 
 <body>
+    <div id="mask">
+        <div id="contact">
+            <div>
+                <img src="/img/contact/close.png" id="close"/>
+            </div>
+            <div class="contact-title">
+                <p>客服微信：Bot_Orange</p>
+                <p>咨询时间：周一至周日 9:30-23:00</p>
+                <div class="contact-qrcode-border">
+                    <div class="contact-qrcode">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--#include virtual="inc/header.html"-->
     <!--#include virtual="inc/header-mobile.html"-->
     <div class="main">
@@ -67,7 +82,7 @@
                                             <div class="banner2-subtitle">6 行 JavaScript 代码即可搭建微信机器人</div>
                                         </div>
                                         <div class="banner2-title-box">
-                                            <div class="banner2-title">模块化封装</div> 
+                                            <div class="banner2-title">模块化封装</div>
                                             <div class="banner2-subtitle">支持多个预制机器人模块</div>
                                         </div>
                                         <div class="banner2-title-box">
@@ -91,7 +106,8 @@
                                 <div class="slide-3-content">
                                     <div class="banner3-title">企业一站式智能对话机器人解决方案</div>
                                     <div class="banner3-subtitle">符合企业真实行业与场景</div>
-                                    <a href="http://botorange.mikecrm.com/2UxFJbD" class="banner3-btn">提交申请</a>
+                                    <a href="http://botorange.mikecrm.com/2UxFJbD" class="banner3-btn"
+                                        id="sendApply_link2">提交申请</a>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +160,7 @@
         </div>
         <div class="section section3">
             <div class="section-container section-container-reverse">
-                
+
                 <div class="section-img img2"></div>
                 <div class="section-content section-content-right">
                     <div class="section-title">企业一站式智能对话解决方案</div>
@@ -160,7 +176,7 @@
                         聚焦客服、销售、培训等多个场景<br>
                         覆盖教育培训、保险金融等多个行业<br>
                     </p>
-                    <a href="http://botorange.mikecrm.com/2UxFJbD" class="section-btn">
+                    <a href="http://botorange.mikecrm.com/2UxFJbD" class="section-btn" id="sendApply_link">
                         <div class="section-btn-text">提交申请</div>
                         <img src="./img/arrow-right.png" class="section-btn-img">
                     </a>
@@ -171,50 +187,51 @@
             <div class="section-title">合作伙伴及客户</div>
             <div class="line line-section4"></div>
             <div class="section-4-subtitle">客户</div>
-                <div class="logo-wrapper-container" id="logo-wrapper1">
-                    <div class="logo-Wrapper">
-                        <div class="logo logo1"></div>
-                        <div class="logo logo2"></div>
-                        <div class="logo logo3"></div>
-                        <div class="logo logo4"></div>
-                        <div class="logo logo5"></div>
-                        <div class="logo logo6"></div>
-                        <div class="logo logo7"></div>
-                        <div class="logo logo8"></div>
-                        <div class="logo logo9"></div>
-                        <div class="logo logo10"></div>
-                    </div>
-                </div>
-            <div class="section-4-subtitle">合作伙伴</div>
-                <div class="logo-wrapper-container" id="logo-wrapper2">
-                    <div class="logo-Wrapper">
-                        <div class="logo logo11"></div>
-                        <div class="logo logo12"></div>
-                        <div class="logo logo13"></div>
-                        <div class="logo logo14"></div>
-                        <div class="logo logo15"></div>
-                        <div class="logo logo16"></div>
-                        <div class="logo logo17"></div>
-                        <div class="logo logo18"></div>
-                        <div class="logo logo19"></div>
-                        <div class="logo logo20"></div>
-                    </div>
-                </div>
-            <div class="section-4-subtitle">投资孵化</div>
-                <div class="logo-wrapper-container" id="logo-wrapper3">
-                    <div class="logo-Wrapper log-wrapper-3">
-                        <div class="logo logo21"></div>
-                        <div class="logo logo22"></div>
-                        <div class="logo logo23"></div>
-                    </div>
+            <div class="logo-wrapper-container" id="logo-wrapper1">
+                <div class="logo-Wrapper">
+                    <div class="logo logo1"></div>
+                    <div class="logo logo2"></div>
+                    <div class="logo logo3"></div>
+                    <div class="logo logo4"></div>
+                    <div class="logo logo5"></div>
+                    <div class="logo logo6"></div>
+                    <div class="logo logo7"></div>
+                    <div class="logo logo8"></div>
+                    <div class="logo logo9"></div>
+                    <div class="logo logo10"></div>
                 </div>
             </div>
+            <div class="section-4-subtitle">合作伙伴</div>
+            <div class="logo-wrapper-container" id="logo-wrapper2">
+                <div class="logo-Wrapper">
+                    <div class="logo logo11"></div>
+                    <div class="logo logo12"></div>
+                    <div class="logo logo13"></div>
+                    <div class="logo logo14"></div>
+                    <div class="logo logo15"></div>
+                    <div class="logo logo16"></div>
+                    <div class="logo logo17"></div>
+                    <div class="logo logo18"></div>
+                    <div class="logo logo19"></div>
+                    <div class="logo logo20"></div>
+                </div>
+            </div>
+            <div class="section-4-subtitle">投资孵化</div>
+            <div class="logo-wrapper-container" id="logo-wrapper3">
+                <div class="logo-Wrapper log-wrapper-3">
+                    <div class="logo logo21"></div>
+                    <div class="logo logo22"></div>
+                    <div class="logo logo23"></div>
+                </div>
+            </div>
+        </div>
         <div class="section section-5">
             <div class="section5-content">
                 <div class="section5-title">开发者支持</div>
                 <div class="section5-line"></div>
                 <div class="section5-subtile">API打造你的微信对话机器人</div>
-                <a href="https://github.com/lijiarui/wechaty-puppet-padchat/wiki/%E8%B4%AD%E4%B9%B0token" class="section5-btn" target="_blank">商务支持</a>
+                <a href="https://github.com/lijiarui/wechaty-puppet-padchat/wiki/%E8%B4%AD%E4%B9%B0token"
+                    class="section5-btn" target="_blank">商务支持</a>
             </div>
         </div>
 
@@ -228,10 +245,10 @@
     <script type="text/javascript" src="lib/swiper_jquery_min.js"></script>
     <script>
         window.intercomSettings = {
-          app_id: "ot717b9w"
+            app_id: "ot717b9w"
         };
-      </script>
-      <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ot717b9w';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+    </script>
+    <script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/ot717b9w'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();</script>
 </body>
 
 </html>
