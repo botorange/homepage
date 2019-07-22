@@ -78,11 +78,11 @@ $(function () {
     function showMask() {
         $('#mask').show();
         $('#mask').removeClass('mask-hide');
-        $('#contact').removeClass('contact-close').addClass('contact-active');
+        $('#contact').addClass('contact-active');
     }
 
     function hideMask() {
-        $('#contact').removeClass('contact-active').addClass('contact-close');
+        $('#contact').removeClass('contact-active');
         $('#mask').addClass('mask-hide');
         setTimeout(function() { $('#mask').hide() }, 500);
     }
