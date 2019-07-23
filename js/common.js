@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     var contentPosition = [];
     main();
 
@@ -6,12 +6,13 @@ $(function() {
         setRem();
         setRemOnResize();
         setHeaderListener();
+        sendApply();
     }
 
     function setContentAnimatePosition() {
         var arr = [];
         var clientHeight = document.documentElement.clientHeight;
-        $('.ani-item').each(function() {
+        $('.ani-item').each(function () {
             var top = $(this).offset().top;
             var limit = top - clientHeight;
             arr.push(limit);
@@ -27,7 +28,7 @@ $(function() {
     }
 
     function setRemOnResize() {
-        $(window).on('resize', function() {
+        $(window).on('resize', function () {
             setRem();
         });
     }
@@ -35,6 +36,7 @@ $(function() {
     function _getCurrentScrollTop() {
         return window.scrollY || document.body.scrollTop || document.documentElement.scrollTop;
     }
+
     function setHeaderListener() {
         var $header = $('.header')[0];
         var $headerMobile = $('.header-mobile')[0]
@@ -42,7 +44,7 @@ $(function() {
 
 
         setContentAnimatePosition();
-        $(window).on('scroll', function(e) {
+        $(window).on('scroll', function (e) {
             var currentScrollTop = _getCurrentScrollTop();
             if (currentScrollTop > 0) {
                 $header.classList.add('scrolled');
@@ -55,5 +57,33 @@ $(function() {
 
             }
         });
+    }
+
+    function sendApply() {
+        $('#sendApply_link,#sendApply_link2').click(() => {
+            showMask();
+            return false;
+        })
+        $('#mask').click(async () => {
+            hideMask();
+        })
+        $('#contact').click((e) => {
+            e.stopPropagation();
+        })
+        $('#close').click(async (e) => {
+            hideMask();
+        })
+    }
+
+    function showMask() {
+        $('#mask').show();
+        $('#mask').removeClass('mask-hide');
+        $('#contact').addClass('contact-active');
+    }
+
+    function hideMask() {
+        $('#contact').removeClass('contact-active');
+        $('#mask').addClass('mask-hide');
+        setTimeout(function() { $('#mask').hide() }, 500);
     }
 });
