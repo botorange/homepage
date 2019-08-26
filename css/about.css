@@ -8,7 +8,7 @@
 .banner-content {
     width: 48rem;
     /*padding-left: 100px;*/
-    padding-top: 200px;
+    padding-top: 100px;
     margin: auto;
     text-align: center;
 }
@@ -22,7 +22,7 @@
 }
 .banner-subtitle {
     font-size: 30px;
-    line-height: 1;
+    line-height: 1.8;
     letter-spacing: 1px;
     color: #ffffff;
 }
