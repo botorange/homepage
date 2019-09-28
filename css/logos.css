@@ -1,203 +1,199 @@
 .logo1 {
-    background-image: url('../img/logo/logo-1.png');
+    background-image: url('../img/logo/logo-2x-1.png');
     background-size: 190px 55px;
     background-position: center;
 }
-.logo1:hover {
-    background-image: url('../img/logo-selected/logo-selected-1.png');
-    background-size: 190px 55px;
-}
 .logo2 {
-    background-image: url('../img/logo/logo-2.png');
-    background-size: 190px 55px;
-}
-.logo2:hover {
-    background-image: url('../img/logo-selected/logo-selected-2.png');
+    background-image: url('../img/logo/logo-2x-2.png');
     background-size: 190px 55px;
 }
 .logo3 {
-    background-image: url('../img/logo/logo-3.png');
-    background-size: 190px 55px;
-}
-.logo3:hover {
-    background-image: url('../img/logo-selected/logo-selected-3.png');
+    background-image: url('../img/logo/logo-2x-3.png');
     background-size: 190px 55px;
 }
 .logo4 {
-    background-image: url('../img/logo/logo-4.png');
-    background-size: 190px 55px;
-}
-.logo4:hover {
-    background-image: url('../img/logo-selected/logo-selected-4.png');
+    background-image: url('../img/logo/logo-2x-4.png');
     background-size: 190px 55px;
 }
 .logo5 {
-    background-image: url('../img/logo/logo-5.png');
-    background-size: 190px 55px;
-}
-.logo5:hover {
-    background-image: url('../img/logo-selected/logo-selected-5.png');
+    background-image: url('../img/logo/logo-2x-5.png');
     background-size: 190px 55px;
 }
 .logo6 {
-    background-image: url('../img/logo/logo-6.png');
-    background-size: 190px 55px;
-}
-.logo6:hover {
-    background-image: url('../img/logo-selected/logo-selected-6.png');
+    background-image: url('../img/logo/logo-2x-6.png');
     background-size: 190px 55px;
 }
 .logo7 {
-    background-image: url('../img/logo/logo-7.png');
-    background-size: 190px 55px;
-}
-.logo7:hover {
-    background-image: url('../img/logo-selected/logo-selected-7.png');
+    background-image: url('../img/logo/logo-2x-7.png');
     background-size: 190px 55px;
 }
 .logo8 {
-    background-image: url('../img/logo/logo-8.png');
-    background-size: 190px 55px;
-}
-.logo8:hover {
-    background-image: url('../img/logo-selected/logo-selected-8.png');
+    background-image: url('../img/logo/logo-2x-8.png');
     background-size: 190px 55px;
 }
 .logo9 {
-    background-image: url('../img/logo/logo-9.png');
-    background-size: 190px 55px;
-}
-.logo9:hover {
-    background-image: url('../img/logo-selected/logo-selected-9.png');
+    background-image: url('../img/logo/logo-2x-9.png');
     background-size: 190px 55px;
 }
 .logo10 {
-    background-image: url('../img/logo/logo-10.png');
-    background-size: 190px 55px;
-}
-.logo10:hover {
-    background-image: url('../img/logo-selected/logo-selected-10.png');
+    background-image: url('../img/logo/logo-2x-10.png');
     background-size: 190px 55px;
 }
 .logo11 {
-    background-image: url('../img/logo/logo-11.png');
-    background-size: 190px 55px;
-}
-.logo11:hover {
-    background-image: url('../img/logo-selected/logo-selected-11.png');
+    background-image: url('../img/logo/logo-2x-11.png');
     background-size: 190px 55px;
 }
 .logo12 {
-    background-image: url('../img/logo/logo-12.png');
-    background-size: 190px 55px;
-}
-.logo12:hover {
-    background-image: url('../img/logo-selected/logo-selected-12.png');
+    background-image: url('../img/logo/logo-2x-12.png');
     background-size: 190px 55px;
 }
 .logo13 {
-    background-image: url('../img/logo/logo-13.png');
-    background-size: 190px 55px;
-}
-.logo13:hover {
-    background-image: url('../img/logo-selected/logo-selected-13.png');
+    background-image: url('../img/logo/logo-2x-13.png');
     background-size: 190px 55px;
 }
 .logo14 {
-    background-image: url('../img/logo/logo-14.png');
-    background-size: 190px 55px;
-}
-.logo14:hover {
-    background-image: url('../img/logo-selected/logo-selected-14.png');
+    background-image: url('../img/logo/logo-2x-14.png');
     background-size: 190px 55px;
 }
 .logo15 {
-    background-image: url('../img/logo/logo-15.png');
-    background-size: 190px 55px;
-}
-.logo15:hover {
-    background-image: url('../img/logo-selected/logo-selected-15.png');
+    background-image: url('../img/logo/logo-2x-15.png');
     background-size: 190px 55px;
 }
 .logo16 {
-    background-image: url('../img/logo/logo-16.png');
-    background-size: 190px 55px;
-}
-.logo16:hover {
-    background-image: url('../img/logo-selected/logo-selected-16.png');
+    background-image: url('../img/logo/logo-2x-16.png');
     background-size: 190px 55px;
 }
 .logo17 {
-    background-image: url('../img/logo/logo-17.png');
-    background-size: 190px 55px;
-}
-.logo17:hover {
-    background-image: url('../img/logo-selected/logo-selected-17.png');
+    background-image: url('../img/logo/logo-2x-17.png');
     background-size: 190px 55px;
 }
 .logo18 {
-    background-image: url('../img/logo/logo-18.png');
-    background-size: 190px 55px;
-}
-.logo18:hover {
-    background-image: url('../img/logo-selected/logo-selected-18.png');
+    background-image: url('../img/logo/logo-2x-18.png');
     background-size: 190px 55px;
 }
 .logo19 {
-    background-image: url('../img/logo/logo-19.png');
-    background-size: 190px 55px;
-}
-.logo19:hover {
-    background-image: url('../img/logo-selected/logo-selected-19.png');
+    background-image: url('../img/logo/logo-2x-19.png');
     background-size: 190px 55px;
 }
 .logo20 {
-    background-image: url('../img/logo/logo-20.png');
-    background-size: 190px 55px;
-}
-.logo20:hover {
-    background-image: url('../img/logo-selected/logo-selected-20.png');
+    background-image: url('../img/logo/logo-2x-20.png');
     background-size: 190px 55px;
 }
 .logo21 {
-    background-image: url('../img/logo/logo-21.png');
-    background-size: 190px 55px;
-}
-.logo21:hover {
-    background-image: url('../img/logo-selected/logo-selected-21.png');
+    background-image: url('../img/logo/logo-2x-21.png');
     background-size: 190px 55px;
 }
 .logo22 {
-    background-image: url('../img/logo/logo-22.png');
-    background-size: 190px 55px;
-}
-.logo22:hover {
-    background-image: url('../img/logo-selected/logo-selected-22.png');
+    background-image: url('../img/logo/logo-2x-22.png');
     background-size: 190px 55px;
 }
 .logo23 {
-    background-image: url('../img/logo/logo-23.png');
-    background-size: 190px 55px;
-}
-.logo23:hover {
-    background-image: url('../img/logo-selected/logo-selected-23.png');
+    background-image: url('../img/logo/logo-2x-23.png');
     background-size: 190px 55px;
 }
 .logo24 {
-    background-image: url('../img/logo/logo-24.png');
-    background-size: 190px 55px;
-}
-.logo24:hover {
-    background-image: url('../img/logo-selected/logo-selected-24.png');
+    background-image: url('../img/logo/logo-2x-24.png');
     background-size: 190px 55px;
 }
 .logo25 {
-    background-image: url('../img/logo/logo-25.png');
+    background-image: url('../img/logo/logo-2x-25.png');
     background-size: 190px 55px;
 }
-.logo25:hover {
-    background-image: url('../img/logo-selected/logo-selected-25.png');
-    background-size: 190px 55px;
+.logo26 {
+  background-image: url('../img/logo/logo-2x-26.png');
+  background-size: 190px 55px;
+}
+.logo27 {
+  background-image: url('../img/logo/logo-2x-27.png');
+  background-size: 190px 55px;
+}
+.logo28 {
+  background-image: url('../img/logo/logo-2x-28.png');
+  background-size: 190px 55px;
+}
+.logo29 {
+  background-image: url('../img/logo/logo-2x-29.png');
+  background-size: 190px 55px;
+}
+.logo30 {
+  background-image: url('../img/logo/logo-2x-30.png');
+  background-size: 190px 55px;
+}
+.logo31 {
+  background-image: url('../img/logo/logo-2x-31.png');
+  background-size: 190px 55px;
+}
+.logo32 {
+  background-image: url('../img/logo/logo-2x-32.png');
+  background-size: 190px 55px;
+}
+.logo33 {
+  background-image: url('../img/logo/logo-2x-33.png');
+  background-size: 190px 55px;
+}
+.logo34 {
+  background-image: url('../img/logo/logo-2x-34.png');
+  background-size: 190px 55px;
+}
+.logo35 {
+  background-image: url('../img/logo/logo-2x-35.png');
+  background-size: 190px 55px;
+}
+.logo36 {
+  background-image: url('../img/logo/logo-2x-36.png');
+  background-size: 190px 55px;
+}
+.logo37 {
+  background-image: url('../img/logo/logo-2x-37.png');
+  background-size: 190px 55px;
+}
+.logo38 {
+  background-image: url('../img/logo/logo-2x-38.png');
+  background-size: 190px 55px;
+}
+.logo39 {
+  background-image: url('../img/logo/logo-2x-39.png');
+  background-size: 190px 55px;
+}
+.logo40 {
+  background-image: url('../img/logo/logo-2x-40.png');
+  background-size: 190px 55px;
+}
+.logo41 {
+  background-image: url('../img/logo/logo-2x-41.png');
+  background-size: 190px 55px;
+}
+.logo42 {
+  background-image: url('../img/logo/logo-2x-42.png');
+  background-size: 190px 55px;
+}
+.logo43 {
+  background-image: url('../img/logo/logo-2x-43.png');
+  background-size: 190px 55px;
+}
+.logo44 {
+  background-image: url('../img/logo/logo-2x-44.png');
+  background-size: 190px 55px;
+}
+.logo45 {
+  background-image: url('../img/logo/logo-2x-45.png');
+  background-size: 190px 55px;
+}
+.logo46 {
+  background-image: url('../img/logo/logo-2x-46.png');
+  background-size: 190px 55px;
+}
+.logo47 {
+  background-image: url('../img/logo/logo-2x-47.png');
+  background-size: 190px 55px;
+}
+.logo48 {
+  background-image: url('../img/logo/logo-2x-48.png');
+  background-size: 190px 55px;
+}
+.logo49 {
+  background-image: url('../img/logo/logo-2x-49.png');
+  background-size: 190px 55px;
 }
 
 
