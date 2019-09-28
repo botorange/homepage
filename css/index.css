@@ -170,6 +170,10 @@ body {
   display: block;
 }
 
+.function-content .swiper-pagination {
+  bottom: 40px !important;
+}
+
 .function-content .swiper-pagination-bullet-active {
   background: rgba(252, 111, 0, 1) !important;
 }
