@@ -83,7 +83,6 @@ body {
   background: url('../img/contact/daidai-small.png') no-repeat;
   background-size: 100% 100%;
 }
-
 /* banner -------------------------------------------------------------------------------------------------------------------*/
 
 .swiper-container {
@@ -146,6 +145,7 @@ body {
 
 .banner-subtitle {
   max-width: 366px;
+  min-width: 268px;
   height: 87px;
   font-size: 26px;
   font-family: PingFangSC-Regular, PingFangSC;
@@ -1203,6 +1203,9 @@ body {
     color: rgba(255, 255, 255, 1);
     line-height: 45px;
     margin-top: 15px;
+  }
+  .banner-title-container {
+    margin: 0;
   }
   .banner-subtitle {
     font-size: 20px;
