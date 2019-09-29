@@ -87,6 +87,11 @@
   line-height: 32px;
   text-indent: 36px;
 }
+.who {
+  height: inherit;
+  padding-bottom: 30px;
+  padding-top: 70px;
+}
 
 .who-content {}
 
