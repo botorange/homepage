@@ -231,7 +231,7 @@
   height: inherit;
   background: rgba(216, 216, 216, 1);
   width: 1px;
-  height: 660px;
+  height: 820px;
   margin-top: 15px;
 }
 
@@ -608,7 +608,7 @@
   .who {
     height: auto;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
   }
   .who-content-container {
     font-size: 12px;
