@@ -89,7 +89,7 @@
 }
 .who {
   height: inherit;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   padding-top: 70px;
 }
 
@@ -608,7 +608,7 @@
   .who {
     height: auto;
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
   }
   .who-content-container {
     font-size: 12px;
