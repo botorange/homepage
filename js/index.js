@@ -9,7 +9,7 @@ $(function() {
 
     function initSwiper() {
       var functionSwiper = new Swiper('.function-content', {
-          // autoplay: 40000,
+          autoplay: 3000,
           // loop: true,
           pagination: '.function-content .swiper-pagination',
           paginationClickable: true,
@@ -17,7 +17,7 @@ $(function() {
       });
 
       var functionMobileSwiper = new Swiper('.function-mobile-content', {
-        // autoplay: 40000,
+        autoplay: 3000,
         // loop: true,
         pagination: '.function-mobile-content .swiper-pagination',
         paginationClickable: true,

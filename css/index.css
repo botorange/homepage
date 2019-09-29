@@ -281,8 +281,8 @@ body {
   margin: 0 auto;
   font-size: 24px;
   font-weight: 500;
-  padding-top: 95px;
-  color: rgba(4, 15, 30, 0.65);
+  padding-top: 80px;
+  color: rgba(4, 15, 30, 1);
 }
 
 .ability-title-container .swiper-pagination-bullet {
@@ -307,6 +307,7 @@ body {
   width: 120px;
   border-radius: 0;
   background: none;
+  color: rgba(4, 15, 30, 1);
 }
 
 .swiper-pagination-bullet .short-line {
@@ -408,7 +409,7 @@ body {
 
 .allfun {
   width: 100%;
-  height: 1255px;
+  height: 1150px;
   display: flex;
   flex-direction: column;
 }
@@ -525,7 +526,7 @@ body {
   align-items: center;
   max-width: 120px;
   margin: 0 auto;
-  margin-top: 117px;
+  margin-top: 80px;
   height: 62px;
   font-size: 25px;
   line-height: 30px;
@@ -1159,7 +1160,6 @@ body {
   align-items: center;
   justify-content: center;
   background-position: center;
-  border: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
 #logo-wrapper1 {
@@ -1216,6 +1216,7 @@ body {
     height: auto;
     margin: 0 auto;
     margin-top: 0;
+    margin-bottom: 20px;
   }
   .common-button {
     margin: 0 auto;
@@ -1288,7 +1289,7 @@ body {
   }
   .function-mobile-left {
     max-width: 308px;
-    width: 12rem;
+    /* width: 12rem; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1308,7 +1309,7 @@ body {
     line-height: 28px;
     margin-top: 0px;
     color: rgba(4, 15, 30, 0.85);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .function-mobile-left .long-line {
     display: none;
@@ -1560,5 +1561,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
+  }
+}
+@media (min-width: 2000px) {
+  .banner-wrapper {
+    background: linear-gradient(314deg, rgba(55, 61, 87, 1) 0%, rgba(18, 20, 30, 1) 100%);
   }
 }
