@@ -7,11 +7,11 @@
     <meta name="description" content="句子秒回是备受信赖的高效稳定微信群管理工具
     无需下载客户端、实现多人管多号、聚合聊天、智能客服聊天系统、绩效统计">
 
-    <link rel="stylesheet" type="text/css" href="css/common.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/logos.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="css/footer.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="css/header.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="css/logos.css?v=2.0">
     <link rel="stylesheet" type="text/css" href="lib/swiper_min.css">
 
     <script type="text/javascript">
@@ -37,209 +37,471 @@
 
 <body>
     <div id="mask" class='mask-hide'>
-        <div id="contact" class="contact">
-            <div>
-                <img src="/img/contact/close.png" id="close"/>
-            </div>
-            <div class="contact-title">
-                <p>客服微信：Bot_Orange</p>
-                <p>咨询时间：周一至周日 9:30-23:00</p>
-                <div class="contact-qrcode-border">
-                    <div class="contact-qrcode">
-                    </div>
-                </div>
-            </div>
+      <div id="contact" class="contact">
+        <div>
+            <img src="/img/contact/close.png" id="close"/>
         </div>
+        <div class="contact-title">
+          <p>客服微信：Bot_Orange</p>
+          <p>咨询时间：周一至周日 9:30-23:00</p>
+          <div class="contact-qrcode-border">
+            <div class="contact-qrcode">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--#include virtual="inc/header.html"-->
     <!--#include virtual="inc/header-mobile.html"-->
     <div class="main">
-        <div class="banner-wrapper">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="slide1">
-                            <div class="slide-1-content">
-                                <div class="slide-1-content-textBox">
-                                    <div class="banner-title-bold">句子互动</div>
-                                    <!-- <div class="banner-title">在微信上提供集销售、市场、和售后服务于一体的客户沟通系统。</div> -->
-                                    <!-- <div class="banner-subtitle">在微信上提供集销售、市场、和售后服务于一体的客户沟通系统。</div> -->
-                                    <div class="banner-subtitle">提供集销售、市场、和售后服务于一体的客户沟通系统。</div>
-                                    <!-- <a href="https://wechat.juzi.bot" class="slide1-btn">限时免费试用</a> -->
-
-                                </div>
-                                <img src="img/index/banner-swiper-cover-1.png" class="banner-swiper-cover1">
-                                <!-- <img src="img/index/banner-mobile-1.png" class="banner-mobile1"> -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="swiper-slide">
-                        <div class="slide2">
-                            <div class="slide-2-content-wrapper">
-                                <div class="slide-2-content">
-                                    <div class="slide-content-2-left">
-
-                                        <div class="banner-title">API 打造你的微信机器人</div>
-                                        <div class="banner2-title-box">
-                                            <div class="banner2-title">接入简单</div>
-                                            <div class="banner2-subtitle">6 行 JavaScript 代码即可搭建微信机器人</div>
-                                        </div>
-                                        <div class="banner2-title-box">
-                                            <div class="banner2-title">模块化封装</div>
-                                            <div class="banner2-subtitle">支持多个预制机器人模块</div>
-                                        </div>
-                                        <div class="banner2-title-box">
-                                            <div class="banner2-title">拥抱开源</div>
-                                            <div class="banner2-subtitle">始于开源，回报开源，保证用户信息安全</div>
-                                        </div>
-                                        <div class="banner2-title-box">
-                                            <div class="banner2-title">技术社区</div>
-                                            <div class="banner2-subtitle">覆盖全球的微信机器人开发者社区</div>
-                                        </div>
-                                        <a href="https://docs.chatie.io/v/zh" class="slide2-btn">查看 API</a>
-                                    </div>
-                                    <img src="img/index/banner-swiper-cover-2.png" class="banner-swiper-cover2">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <div class="swiper-slide">
-                        <div class="slide3">
-                            <div class="slide-3-content-wrapper">
-                                <div class="slide-3-content">
-                                    <div class="banner3-title">企业一站式智能对话机器人解决方案</div>
-                                    <div class="banner3-subtitle">符合企业真实行业与场景</div>
-                                    <a href="http://botorange.mikecrm.com/2UxFJbD" class="banner3-btn"
-                                        id="sendApply_link2">提交申请</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="swiper-pagination"></div>
+      <a name='banner'></a>
+      <div class="banner-wrapper">
+        <div class="banner-container">
+          <div class="banner-computer">
+            <img src="img/index/computer-2x.png"/>
+          </div>
+          <div class="banner-title-container">
+            <div class="banner-title">
+              句子秒回
             </div>
-
+            <div class="banner-subtitle">
+              在微信上提供集销售、市场和售后服务于一体的客户沟通系统
+            </div>
+            <a class="common-button" href="https://wechat.botorange.com" target="_blank">
+              限时免费试用
+            </a>
+          </div>
         </div>
-        <div class="section section1">
-            <div class="section-container section-container-reverse">
-                <div class="section-img img1"></div>
-                <div class="section-content section-content-right">
-                    <div class="section-title">句子秒回</div>
-                    <div class="line"></div>
-                    <p class="section-content-text">
-                        <!-- 高效的微信辅助工具 <br> -->
-                        助力企业深度用户运营 <br>
-                        无需任何第三方客户端下载 <br>
-                        <!-- 随时随地管理你的微信机器人 -->
-                        随时随地管理你的Chatbot
-                    </p>
-                    <!-- <a href="https://wechat.juzi.bot/login" class="section-btn">
-                        <div class="section-btn-text">管理后台登录</div>
-                        <img src="./img/arrow-right.png" class="section-btn-img">
-                    </a> -->
+      </div>
+      <a name='function'></a>
+      <!--#include virtual="inc/function.html"-->
+      <!--#include virtual="inc/function-mobile.html"-->
+      <!-- <div class="function">
+        <div class="function-title">特色功能</div>
+        <div class="short-line"></div>
+        <div class="function-content">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="function-slide-container">
+                <div class="function-left">
+                  <div class="title">多号聚合聊天</div>
+                  <div class="long-line"></div>
+                  <div class="text">一个窗口聚合多个微信号的私聊&群聊信息，支持一个窗口回复来自多个微信号的好友聊天</div>
+                  <a class="common-button" href="http://juzi.bot/">了解更多功能</a>
                 </div>
+                <div class="function-right">
+                  <img src="img/index/function1-2x.png" />
+                </div>
+              </div>
             </div>
+            <div class="swiper-slide">
+              <div class="function-slide-container">
+                <div class="function-left">
+                  <div class="title">多人多坐席协同</div>
+                  <div class="long-line"></div>
+                  <div class="text">多人多坐席同事在线协同处理好友消息，消息实时分配，实现24小时客户无感客服交替班</div>
+                  <a class="common-button">了解更多功能</a>
+                </div>
+                <div class="function-right">
+                  <img src="img/index/function2-2x.png" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="function-slide-container">
+                <div class="function-left">
+                  <div class="title">云端SaaS模式</div>
+                  <div class="long-line"></div>
+                  <div class="text">独家实现web端自动托管不受手机电脑关机影响，保持24小时在线自动运行</div>
+                  <a class="common-button">了解更多功能</a>
+                </div>
+                <div class="function-right">
+                  <img src="img/index/function3-2x.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="section section2">
-            <div class="section-container">
-
-                <div class="section-content section-content-left">
-                    <div class="section-title">标准 API 支持快速接入</div>
-                    <div class="line"></div>
-                    <p class="section-content-text">
-                        JavaScript 六行代码即可搭建对话机器人 <br>
-                        模块化封装，多个预制模块 <br>
-                        <!-- 稳定的微信接入和运维部署支持 <br> -->
-                        始于开源，回报开源，保证用户信息安全 <br>
-                        <!-- 全球最大的微信对话机器人开发者社区<br> -->
-                        覆盖全球的对话机器人开发者社区<br>
-                    </p>
-                    <!-- <a href="https://docs.chatie.io/v/zh" class="section-btn">
-                        <div class="section-btn-text">查看 API</div>
-                        <img src="./img/arrow-right.png" class="section-btn-img">
-                    </a> -->
-                </div>
-                <div class="section-img img3"></div>
-            </div>
+      </div> -->
+      <a name='ability'></a>
+      <div class="ability">
+        <div class="ability-title-container">
         </div>
-        <div class="section section3">
-            <div class="section-container section-container-reverse">
-
-                <div class="section-img img2"></div>
-                <div class="section-content section-content-right">
-                    <div class="section-title">企业一站式智能对话解决方案</div>
-                    <div class="line"></div>
-                    <div class="icon-box">
-                        <img src="img/index/icon-1.png" class="icon"></img>
-                        <img src="img/index/icon-2.png" class="icon"></img>
-                        <img src="img/index/icon-3.png" class="icon"></img>
-                    </div>
-                    <p class="section-content-text">
-                        自动化管理工具<br>
-                        AI赋能企业营销场景<br>
-                        聚焦客服、销售、培训等多个场景<br>
-                        覆盖教育培训、保险金融等多个行业<br>
-                    </p>
-                    <a href="http://botorange.mikecrm.com/2UxFJbD" class="section-btn" id="sendApply_link">
-                        <div class="section-btn-text">提交申请</div>
-                        <img src="./img/arrow-right.png" class="section-btn-img">
-                    </a>
+        <div class="ability-content-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" >
+              <div class="ability-item-container" data-key="sale">
+                <div class="ability-content-left">
+                  <div class="ability-content-title">1、打造第一印象</div>
+                  <div class="ability-content-text">通过标准话术、图文、视频、文件等统一素材，快速给客户留下专业的销售人员形象，建立初步信任。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">2、过程专业回复</div>
+                  <div class="ability-content-text">通过问答对话示例素材，提高销售人员的回答正确率与话术专业度50%。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">3、难题一键支持</div>
+                  <div class="ability-content-text">通过多人协同分配功能，在销售人员面对无法回答问题时，快速分配给相关岗位同时进行专业解答回复。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">4、客户信息保障</div>
+                  <div class="ability-content-text">通过强制回复功能、响应超时提醒功能，确保不漏掉任何一条客户信息，减少丢单。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">5、质检风控保障</div>
+                  <div class="ability-content-text">人号分离，员工离职确保客户信息安全。实时管控服务质量，沟通记录完整留痕。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
                 </div>
+                <div class="ability-content-right">
+                  <img src="img/index/ability1-2x.png" alt=""/>
+                </div>
+              </div>
             </div>
+            <div class="swiper-slide">
+              <div class="ability-item-container" data-key="group">
+                <div class="ability-content-left">
+                  <div class="ability-content-title">1、快速拉新</div>
+                  <div class="ability-content-text">自动通过好友请求，自动邀请好友入群，入群欢迎语，有效帮助社群管理快速拉新。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">2、高效促活</div>
+                  <div class="ability-content-text">支持关键词自动回复，帮助社群持续吸粉并提高群活跃度。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">3、省时高效</div>
+                  <div class="ability-content-text">消息定时群发，支持图片、文件、链接等多种消息类型，构建知识素材库，有效提高效率。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">4、精准分析</div>
+                  <div class="ability-content-text">支持整体微信号数据统计，历史数据分析。支持群成员变动统计（活跃成员，入群成员，离群成员，潜水成员等），微信内容记录，微信群加标签，群聊热词分析等，有效帮你随时了解社群动态。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">5、微信群成员管理</div>
+                  <div class="ability-content-text">支持批量踢人、关键词踢人、群内投票踢人，防止群内广告和炸群行为，并对广告、小程序等行为智能提醒，被踢人员自动加入黑名单。成员管理更加省心。</div>
+                </div>
+                <div class="ability-content-right">
+                  <img src="img/index/ability2-2x.png" alt=""/>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ability-item-container" data-key="service">
+                <div class="ability-content-left">
+                  <div class="ability-content-title">1、聚合高效聊天</div>
+                  <div class="ability-content-text">聚合多个微信号的私聊&群聊信息，支持一个窗口回复来自多个微信号的用户咨询。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">2、多人多岗协同办公</div>
+                  <div class="ability-content-text">多客服多岗同时接收客户消息，转接协同解决客户问题，24小时客户无感客服交替班。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">3、信息零漏回</div>
+                  <div class="ability-content-text">通过强制回复功能、响应超时提醒功能，确保不漏掉任何一条客户信息。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">4、应答话术</div>
+                  <div class="ability-content-text">通过问答对话示例素材，提高客服人员的回答正确率与话术严谨度。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">5、沟通记录透明</div>
+                  <div class="ability-content-text">实时管控服务质量，沟通记录完整留痕，随时查阅，有效界定问题责任归属。</div>
+                  <div class="ability-content-text ability-content-text-empty">&nbsp;</div>
+                  <div class="ability-content-title">6、绩效统计</div>
+                  <div class="ability-content-text">多维度统计客服绩效数据，客服工作量、工作时长、响应时长、应答率、超时响应统计数据可视化显示，提供准确可信的绩效考评依据。</div>
+                </div>
+                <div class="ability-content-right">
+                  <img src="img/index/ability3-2x.png" alt=""/>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="section section-4">
-            <div class="section-title">合作伙伴及客户</div>
-            <div class="line line-section4"></div>
-            <div class="section-4-subtitle">客户</div>
-            <div class="logo-wrapper-container" id="logo-wrapper1">
-                <div class="logo-Wrapper">
-                    <div class="logo logo1"></div>
-                    <div class="logo logo2"></div>
-                    <div class="logo logo3"></div>
-                    <div class="logo logo4"></div>
-                    <div class="logo logo5"></div>
-                    <div class="logo logo6"></div>
-                    <div class="logo logo7"></div>
-                    <div class="logo logo8"></div>
-                    <div class="logo logo9"></div>
-                    <div class="logo logo10"></div>
-                </div>
-            </div>
-            <div class="section-4-subtitle">合作伙伴</div>
-            <div class="logo-wrapper-container" id="logo-wrapper2">
-                <div class="logo-Wrapper">
-                    <div class="logo logo11"></div>
-                    <div class="logo logo12"></div>
-                    <div class="logo logo13"></div>
-                    <div class="logo logo14"></div>
-                    <div class="logo logo15"></div>
-                    <div class="logo logo16"></div>
-                    <div class="logo logo17"></div>
-                    <div class="logo logo18"></div>
-                    <div class="logo logo19"></div>
-                    <div class="logo logo20"></div>
-                </div>
-            </div>
-            <div class="section-4-subtitle">投资孵化</div>
-            <div class="logo-wrapper-container" id="logo-wrapper3">
-                <div class="logo-Wrapper log-wrapper-3">
-                    <div class="logo logo21"></div>
-                    <div class="logo logo22"></div>
-                    <div class="logo logo23"></div>
-                </div>
-            </div>
+      </div>
+      <a name='allfun'></a>
+      <!--#include virtual="inc/allfun.html"-->
+      <!--#include virtual="inc/allfun-mobile.html"-->
+      <a name='statistics'></a>
+      <div class="statistics">
+        <div class="statistics-title">
+          <div>句子秒回</div>
+          <div class="statistics-line"></div>
         </div>
-        <div class="section section-5">
-            <div class="section5-content">
-                <div class="section5-title">开发者支持</div>
-                <div class="section5-line"></div>
-                <div class="section5-subtile">API打造你的Chatbot</div>
-                <!-- <a href="https://github.com/lijiarui/wechaty-puppet-padchat/wiki/%E8%B4%AD%E4%B9%B0token"
-                    class="section5-btn" target="_blank">商务支持</a> -->
+        <div class="statistics-content">
+          <div class="statistics-item">
+            <div class="statistics-item-text">100万+
+              <div class="statistics-item-sup" style="right: -3.3em">
+                <img src="img/index/arrow-2x.png"/>
+              </div>
             </div>
+            <div class="statistics-item-title">已管理微信群</div>
+          </div>
+          <div class="statistics-item">
+            <div class="statistics-item-text">1200+
+              <div class="statistics-item-sup" style="right: -2.9em;">
+                <img src="img/index/arrow-2x.png"/>
+              </div>
+            </div>
+            <div class="statistics-item-title">服务企业</div>
+          </div>
+          <div class="statistics-item">
+            <div class="statistics-item-text">600+
+              <div class="statistics-item-sup">
+                <img src="img/index/arrow-2x.png"/>
+              </div>
+            </div>
+            <div class="statistics-item-title">每分钟新增群聊</div>
+          </div>
         </div>
-
+        <div class="statistics-button-container">
+          <div class="statistics-button">
+            <a href="https://wechat.botorange.com" target="_blank">免费试用</a>
+          </div>
+        </div>
+      </div>
+      <a name='partner'></a>
+      <div class="section section-4">
+          <div class="section-title">合作伙伴及客户</div>
+          <div class="line line-section4"></div>
+          <div class="section-4-subtitle">合作伙伴</div>
+          <div class="logo-wrapper-container" id="logo-wrapper1">
+            <div class="logo-Wrapper">
+              <div class="logo logo1"></div>
+              <div class="logo logo2"></div>
+              <div class="logo logo3"></div>
+              <div class="logo logo4"></div>
+              <div class="logo logo5"></div>
+              <div class="logo logo6"></div>
+              <div class="logo logo7"></div>
+              <div class="logo logo8"></div>
+              <div class="logo logo9"></div>
+              <div class="logo logo10"></div>
+              <div class="logo logo11"></div>
+              <div class="logo logo12"></div>
+              <div class="logo logo13"></div>
+              <div class="logo logo14"></div>
+              <div class="logo logo15"></div>
+            </div>
+          </div>
+          <div class="section-4-subtitle">客户</div>
+          <div class="logo-wrapper-container" id="logo-wrapper2">
+              <div class="logo-Wrapper">
+                  <div class="logo logo16"></div>
+                  <div class="logo logo17"></div>
+                  <div class="logo logo18"></div>
+                  <div class="logo logo19"></div>
+                  <div class="logo logo20"></div>
+                  <div class="logo logo50"></div>
+                  <div class="logo logo21"></div>
+                  <div class="logo logo22"></div>
+                  <div class="logo logo23"></div>
+                  <div class="logo logo24"></div>
+                  <div class="logo logo26"></div>
+                  <div class="logo logo27"></div>
+                  <div class="logo logo28"></div>
+                  <div class="logo logo29"></div>
+                  <div class="logo logo30"></div>
+                  <div class="logo logo31"></div>
+                  <div class="logo logo32"></div>
+                  <div class="logo logo33"></div>
+                  <div class="logo logo34"></div>
+                  <div class="logo logo35"></div>
+                  <div class="logo logo36"></div>
+                  <div class="logo logo37"></div>
+                  <div class="logo logo38"></div>
+                  <div class="logo logo39"></div>
+                  <div class="logo logo40"></div>
+                  <div class="logo logo41"></div>
+                  <div class="logo logo42"></div>
+                  <div class="logo logo43"></div>
+                  <div class="logo logo44"></div>
+                  <div class="logo logo25"></div>
+              </div>
+          </div>
+          <div class="section-4-subtitle">投资孵化</div>
+          <div class="logo-wrapper-container" id="logo-wrapper3">
+              <div class="logo-Wrapper">
+                  <div class="logo logo45"></div>
+                  <div class="logo logo46"></div>
+                  <div class="logo logo47"></div>
+                  <div class="logo logo48"></div>
+                  <div class="logo logo49"></div>
+              </div>
+          </div>
+      </div>
+      <!-- <div class="partner">
+        <div class="partner-title">
+          <div>合作伙伴及客户</div>
+          <div class="short-line"></div>
+        </div>
+        <div class="partner-subtitle">合作伙伴</div>
+        <div class="partner-content">
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/newlogo1-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo2-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo3-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo4-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo5-2x.png"/>
+            </div>
+          </div>
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/newlogo6-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo7-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo8-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo9-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo10-2x.png"/>
+            </div>
+          </div>
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/newlogo11-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo12-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo13-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo14-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/newlogo15-2x.png"/>
+            </div>
+          </div>
+        </div>
+        <div class="partner-subtitle">客户</div>
+        <div class="partner-content">
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/cus1-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus2-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus3-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus4-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus5-2x.png"/>
+            </div>
+          </div>
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/cus6-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus7-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus8-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus9-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus10-2x.png"/>
+            </div>
+          </div>
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/cus11-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus12-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus13-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus14-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus15-2x.png"/>
+            </div>
+          </div>
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/cus16-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus17-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus18-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus19-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus20-2x.png"/>
+            </div>
+          </div>
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/cus21-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus22-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus23-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus24-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus25-2x.png"/>
+            </div>
+          </div>
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/cus26-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus27-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus28-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus29-2x.png"/>
+            </div>
+            <div class="partner-item" style="visibility: hidden">
+              <img src="img/logo/cus29-2x.png"/>
+            </div>
+          </div>
+        </div>
+        <div class="partner-subtitle">投资孵化</div>
+        <div class="partner-content">
+          <div class="partner-content-row">
+            <div class="partner-item">
+              <img src="img/logo/invest1-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/cus12-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/invest3-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/invest4-2x.png"/>
+            </div>
+            <div class="partner-item">
+              <img src="img/logo/invest5-2x.png"/>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </div>
 
     <!--#include virtual="inc/footer.html"-->
@@ -254,7 +516,7 @@
         };
     </script>
     <script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/ot717b9w'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();</script>
-    <script>window.octConfig={appId: "juzi.bot" }</script>
+    <script>window.octConfig={appId: "botorange-com" }</script>
     <script type="text/javascript" async src="//cdn.pocoweb.com/oct/oct.js"></script>
 </body>
 
