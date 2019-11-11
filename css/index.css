@@ -1563,6 +1563,15 @@ body {
     margin-top: 150px;
   }
 }
+.index-video-content{
+  max-width: 1020px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0px 30px 110px 30px;
+}
+.index-video-content video{
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.05);
+}
 @media (min-width: 2000px) {
   .banner-wrapper {
     background: linear-gradient(314deg, rgba(55, 61, 87, 1) 0%, rgba(18, 20, 30, 1) 100%);

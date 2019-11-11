@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>句子互动-免费微信机器人-备受信赖的微信群管理工具</title>
+    <meta name="description" content="句子秒回是备受信赖的高效稳定微信群管理工具。
+    无需下载客户端、实现多人管多号、聚合聊天、智能客服聊天系统、绩效统计等功能。">
+
+    <link rel="stylesheet" type="text/css" href="css/common.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="css/video.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="css/footer.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="css/header.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="lib/swiper_min.css">
+
+    <style>
+        .header a {
+            color: #68768b !important;
+        }
+
+        .header .login a {
+            border: 1px solid #68768b !important;
+            color: #68768b;
+        }
+
+        .header .header-logo {
+            background-image: url(../img/logo-active.png);
+        }
+    </style>
+
+
+    <script type="text/javascript">
+        (function () {
+            window.CONFIG = {
+                currentNavName: 'f'
+            };
+        })();
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135507011-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-135507011-1');
+    </script>
+</head>
+
+<body>
+    <!--#include virtual="inc/header.html"-->
+    <!--#include virtual="inc/header-mobile.html"-->
+
+    <div class="main">
+
+        <div class="video-tutorial-wrap">
+            <div class="content">
+                <div class="title" id="video-title">01 首次使用流程、整体功能浏览</div>
+                <div class="sub-title">句子秒回智能客服平台</div>
+
+                <div class="vedio-content">
+                    <video id="video-tag" class="video-tag" playsinline="" preload="" controls="" poster="">
+                        你的浏览器不支持 <code>video</code>
+                        标签.
+                    </video>
+                    <div class="video-list">
+                        <div class="list-title">播放列表</div>
+                        <ul id="video-list">
+                            <li video-index="1">01 首次使用流程、整体功能浏览</li>
+                            <li video-index="2">02 多客服协同办公介绍</li>
+                            <li video-index="3">03 如何高效与客户聊天</li>
+                            <li video-index="4">04 客户管理功能</li>
+                            <li video-index="5">05 自动通过好友请求后并自动回复</li>
+                            <li video-index="6" style="display: none;">06 消息群发功能</li>
+                            <li video-index="7">07 关键词入群功能</li>
+                            <li video-index="8" style="display: none;">08 自动回复功能</li>
+                            <li video-index="9">09 数据分析功能</li>
+                            <li video-index="10">10 权限管理功能</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+    </div>
+
+    <!--#include virtual="inc/footer.html"-->
+
+    <script type="text/javascript" src="lib/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="lib/swiper_jquery_min.js"></script>
+    <script>
+        window.intercomSettings = {
+            app_id: "ot717b9w"
+        };
+    </script>
+    <script>
+        (function ($) {
+            $.getUrlParam = function (name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null) return unescape(r[2]);
+                return null;
+            }
+            $.setUrlParam = function (key, value) {
+                var url = new URL(window.location.href);
+                url.searchParams.set(key, value);
+                window.history.pushState(null, null, url);
+                // window.location = url;
+            }
+        })(jQuery);
+
+        let list = $('#video-list > li');
+        list.click(function () {
+            let index = $(this).attr('video-index');
+            $(this).addClass('active').siblings().removeClass('active');
+            $('#video-tag').attr('src', `https://cdn.botorange.com/${index}.mp4`);
+            $('#video-title').text($(this).text());
+            $.setUrlParam('id', index);
+        });
+        let id = $.getUrlParam('id') || '1';
+        if (!id || !Number(id)) { id = 1; }
+        list.filter(`[video-index=${id}]`).trigger('click');
+    </script>
+    <script>
+        (function () {
+            var w = window;
+            var ic = w.Intercom;
+            if (typeof ic === "function") {
+                ic('reattach_activator');
+                ic('update', w.intercomSettings);
+            } else {
+                var d = document;
+                var i = function () {
+                    i.c(arguments);
+                };
+                i.q = [];
+                i.c = function (args) {
+                    i.q.push(args);
+                };
+                w.Intercom = i;
+                var l = function () {
+                    var s = d.createElement('script');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = 'https://widget.intercom.io/widget/ot717b9w';
+                    var x = d.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                };
+                if (w.attachEvent) {
+                    w.attachEvent('onload', l);
+                } else {
+                    w.addEventListener('load', l, false);
+                }
+            }
+        })();
+    </script>
+    <script>
+        window.octConfig = {
+            appId: "botorange-com"
+        }
+    </script>
+    <script type="text/javascript" async src="//cdn.pocoweb.com/oct/oct.js"></script>
+</body>
+
+</html>
