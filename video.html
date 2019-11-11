@@ -119,7 +119,7 @@
         list.click(function () {
             let index = $(this).attr('video-index');
             $(this).addClass('active').siblings().removeClass('active');
-            $('#video-tag').attr('src', `http://cdn.botorange.com/${index}.mp4`);
+            $('#video-tag').attr('src', `https://cdn.botorange.com/${index}.mp4`);
             $('#video-title').text($(this).text());
             $.setUrlParam('id', index);
         });
