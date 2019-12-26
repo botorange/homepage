@@ -409,7 +409,7 @@ body {
 
 .allfun {
   width: 100%;
-  height: 1150px;
+  height: 1420px;
   display: flex;
   flex-direction: column;
 }
@@ -536,7 +536,7 @@ body {
 .allfun-content {
   max-width: 1020px;
   margin: 0 auto;
-  height: 1076px;
+  height: 1346px;
   width: 100%;
   padding: 82px 30px 0px 30px;
 }
