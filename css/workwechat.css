@@ -1,0 +1,17 @@
+.work-content {
+  display: block;
+  text-align: center;
+}
+
+.work-content-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .work-content {
+    display: none;
+  }
+  .work-content-mobile {
+    display: block;
+  }
+}

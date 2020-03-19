@@ -38,6 +38,16 @@
     background-repeat: no-repeat;
     background-size: 101px 29px;
 }
+
+.header .work-header-logo {
+  display: block;
+  width: 298px;
+  height: 33px;
+  margin-top: 12px;
+  background-image: url('../img/work-logo.png');
+  background-repeat: no-repeat;
+  background-size: 298px 33px;
+}
 .header .nav-item {
     display: block;
     height: 50px;
@@ -57,6 +67,10 @@
 }
 .header.scrolled .header-logo {
     background-image: url('../img/logo-active.png');
+}
+
+.header.scrolled .work-header-logo {
+  background-image: url('../img/work-logo-active.png');
 }
 .header.scrolled .nav-item {
     color: #68768b;

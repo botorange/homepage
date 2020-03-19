@@ -1,0 +1,34 @@
+<div class="header">
+  <header>
+    <div class="clearfix content-wrapper">
+      <div class="clearfix left">
+        <a href="default.html" class="left work-header-logo">
+        </a>
+      </div>
+      <div class="login">
+        <a href="https://wechat.botorange.com" target="_blank">
+          注册/登录
+        </a>
+      </div>
+      <div class="right">
+        <a class="left nav-item" data-target="a" href="/">企微SCRM</a>
+        <a class="left nav-item" data-target="b" href="https://www.botorange.com/" target="_blank">句子秒回</a>
+        <a class="left nav-item" data-target="c" href="https://www.botorange.com/about.html">关于我们</a>
+      </div>
+    </div>
+  </header>
+</div>
+<script type="text/javascript">
+  (function () {
+    var navs = document.getElementsByClassName('nav-item');
+    var currentNavName = CONFIG && CONFIG.currentNavName || undefined;
+
+    for (var i = navs.length - 1; i >= 0; i--) {
+      var nav = navs[ i ];
+      var targetName = nav.getAttribute('data-target');
+      if (currentNavName === targetName) {
+        nav.className += ' active';
+      }
+    }
+  })();
+</script>
