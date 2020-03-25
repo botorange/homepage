@@ -1169,6 +1169,10 @@ body {
   background-position: center;
 }
 
+#partner-box {
+  display: none;
+}
+
 #logo-wrapper1 {
   height: 310px;
 }
@@ -1180,6 +1184,14 @@ body {
 .log-wrapper-3 {
   align-items: center;
   justify-content: center;
+}
+
+.logo-wrapper-fix-height {
+  height: 150px !important;
+}
+
+.logo-wrapper-fix-width {
+  width: 400px !important;
 }
 
 @media (min-width: 800px) and (max-width: 1170px) {
@@ -1194,6 +1206,10 @@ body {
   #contact {
     width: 330px;
     height: 400px;
+  }
+
+  #partner-box {
+    display: block;
   }
 
 .contact-qrcode-border {
