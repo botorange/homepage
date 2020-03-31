@@ -41,12 +41,12 @@
 
 .header .work-header-logo {
   display: block;
-  width: 298px;
+  width: 325px;
   height: 33px;
   margin-top: 12px;
   background-image: url('../img/work-logo.png');
   background-repeat: no-repeat;
-  background-size: 298px 33px;
+  background-size: 325px 33px;
 }
 .header .nav-item {
     display: block;
