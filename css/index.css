@@ -1072,9 +1072,9 @@ body {
 
 .section-4 {
   width: 100%;
-  /* height: 1500px; */
-  height: 1270px;
+  height: 1350px;
   padding-top: 80px;
+  padding-bottom: 80px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -1176,17 +1176,26 @@ body {
 }
 
 #logo-wrapper1 {
-  height: 310px;
+  height: 195px;
 }
 
 #logo-wrapper2 {
-  height: 430px;
+  height: 390px;
+}
+
+#logo-wrapper3 {
+  height: 65px;
+}
+
+#logo-wrapper4 {
+  height: 65px;
 }
 
 .speed-index {
   display: flex;
   justify-content: space-around;
   min-width: 380px;
+  max-width: 800px;
 }
 
 .log-wrapper-3 {
