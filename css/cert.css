@@ -1,0 +1,140 @@
+.section-cert {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  height: auto !important;
+}
+
+.cert-title {
+  height: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(46, 53, 88, 1);
+  line-height: 40px;
+  text-align: center;
+}
+
+.marquee-box {
+  margin-top: 60px;
+  margin-left: 170px;
+  margin-right: 170px;
+  height: 304px;
+  background: #F8F8F8;
+  overflow: hidden;
+}
+
+.marquee-item {
+  width: 346px;
+  height: 244px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.marquee-item img {
+  width: 346px;
+  height: 244px;
+}
+
+.cert-statistic {
+  clear: both;
+  display: flex;
+  margin-top: 69px !important;
+  margin: 0 170px;
+}
+
+.cert-statistic img {
+  height: 110px;
+  margin: 0 auto;
+}
+
+.cert-statistic p {
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(46, 53, 88, 0.85);
+}
+
+.cert-statistic-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-cert-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .section-cert {
+    display: none;
+  }
+  .section-cert-mobile {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: auto !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .cert-title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(46, 53, 88, 1);
+    line-height: 30px;
+    height: 30px;
+  }
+  .marquee-box {
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 147px;
+    background: #F8F8F8;
+    overflow: hidden;
+  }
+  .marquee-item {
+    width: 180px;
+    height: 127px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .marquee-item img {
+    width: 180px;
+    height: 127px;
+  }
+  .cert-statistic {
+    clear: both;
+    display: flex;
+    margin-top: 50px !important;
+    margin: 0 16px;
+  }
+  .cert-statistic img {
+    height: 37px;
+    margin: 0 auto;
+  }
+  .cert-statistic p {
+    line-height: 16px;
+    text-align: center;
+    font-size: 10px !important;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(46, 53, 88, 1);
+    width: 200%;
+    -webkit-transform-origin-x: 0;
+    transform-origin-x: 0;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    font-size: 20px !important;
+  }
+  .cert-statistic-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

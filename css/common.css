@@ -47,6 +47,15 @@
   padding-left: 50px;
   margin-left: 50px;
 }
+.section-title-box {
+  display: block;
+  font-size: 30px !important;
+  color: #2E3558 !important;
+  font-weight: 600 !important;
+}
+.section-title-box-mobile {
+  display: none;
+}
 .section-title {
   font-size: 25px;
   color: #040f1e;
@@ -112,6 +121,16 @@ html {
       width: 100%;
       height: auto;
       text-align: center;
+    }
+    .section-title-box {
+      display: none;
+    }
+    .section-title-box-mobile {
+      display: block;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 30px;
+      color: rgba(46, 53, 88, 1);
     }
     .section-title {
       font-size: 22px;
