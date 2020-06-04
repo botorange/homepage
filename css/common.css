@@ -47,6 +47,13 @@
   padding-left: 50px;
   margin-left: 50px;
 }
+.section-title-pc {
+  display: block;
+}
+.section-title-mobile {
+  display: none;
+}
+
 .section-title-box {
   display: block;
   font-size: 30px !important;
@@ -121,6 +128,12 @@ html {
       width: 100%;
       height: auto;
       text-align: center;
+    }
+    .section-title-pc {
+      display: none;
+    }
+    .section-title-mobile {
+      display: block;
     }
     .section-title-box {
       display: none;

@@ -1072,7 +1072,7 @@ body {
 
 .section-4 {
   width: 100%;
-  height: 1350px;
+  height: 1045px;
   padding-top: 80px;
   padding-bottom: 80px;
   text-align: center;
@@ -1179,18 +1179,14 @@ body {
 }
 
 #logo-wrapper1 {
-  height: 195px;
-}
-
-#logo-wrapper2 {
   height: 390px;
 }
 
-#logo-wrapper3 {
+#logo-wrapper2 {
   height: 65px;
 }
 
-#logo-wrapper4 {
+#logo-wrapper3 {
   height: 65px;
 }
 
