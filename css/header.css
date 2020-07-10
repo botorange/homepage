@@ -41,12 +41,12 @@
 
 .header .work-header-logo {
   display: block;
-  width: 325px;
+  width: 115px;
   height: 33px;
   margin-top: 8px;
-  background-image: url('../img/work-logo.png');
+  background-image: url('../img/work-logo-new.png');
   background-repeat: no-repeat;
-  background-size: 325px 33px;
+  background-size: 115px 33px;
 }
 .header .nav-item {
     display: block;
@@ -70,7 +70,7 @@
 }
 
 .header.scrolled .work-header-logo {
-  background-image: url('../img/work-logo-active.png');
+  background-image: url('../img/work-logo-active-new.png');
 }
 .header.scrolled .nav-item {
     color: #68768b;
