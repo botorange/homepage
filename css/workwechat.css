@@ -13,5 +13,7 @@
   }
   .work-content-mobile {
     display: block;
+    overflow-x: hidden;
+    margin: 0 auto;
   }
 }

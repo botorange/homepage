@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="651px" viewBox="0 0 1440 651" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形</title>
+    <defs>
+        <linearGradient x1="100%" y1="59.2866288%" x2="30.2383664%" y2="47.4953087%" id="linearGradient-1">
+            <stop stop-color="#F83600" offset="0%"></stop>
+            <stop stop-color="#FE8C00" offset="100%"></stop>
+            <stop stop-color="#FE8C00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="最新版备份" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-20" fill="url(#linearGradient-1)">
+            <path d="M0,0 L1440,0 L1440,651 C1294.93077,624.333333 1190.97559,611 1128.13446,611 C1033.87275,611 889.921456,652 784.692214,651 C679.462972,650 606.823721,609.301086 485.147897,609.301086 C329.641022,609.301086 318.162037,650 197.678396,651 C117.355969,651.666667 51.4631704,638.333333 0,611 L0,0 Z" id="矩形"></path>
+        </g>
+    </g>
+</svg>
